@@ -11,6 +11,15 @@
 		181B6E6A1DEBF34D009FC0C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B6E681DEBF34D009FC0C4 /* Main.storyboard */; };
 		181B6E6C1DEBF34D009FC0C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181B6E6B1DEBF34D009FC0C4 /* Assets.xcassets */; };
 		181B6E6F1DEBF34D009FC0C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181B6E6D1DEBF34D009FC0C4 /* LaunchScreen.storyboard */; };
+		18C8377A1DEF461B0068E2E7 /* ZFHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C837791DEF461B0068E2E7 /* ZFHomeViewController.swift */; };
+		18C8377C1DEF462A0068E2E7 /* ZFLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C8377B1DEF462A0068E2E7 /* ZFLiveViewController.swift */; };
+		18C8377E1DEF463F0068E2E7 /* ZFFollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C8377D1DEF463F0068E2E7 /* ZFFollowViewController.swift */; };
+		18C837801DEF464C0068E2E7 /* ZFProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C8377F1DEF464C0068E2E7 /* ZFProfileViewController.swift */; };
+		18C8378E1DEF4C790068E2E7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C8378D1DEF4C790068E2E7 /* MainTabBarController.swift */; };
+		18C837901DEF529D0068E2E7 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C8378F1DEF529D0068E2E7 /* Home.storyboard */; };
+		18C837921DEF52B80068E2E7 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C837911DEF52B80068E2E7 /* Live.storyboard */; };
+		18C837941DEF52CD0068E2E7 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C837931DEF52CD0068E2E7 /* Follow.storyboard */; };
+		18C837961DEF52E30068E2E7 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C837951DEF52E30068E2E7 /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +29,15 @@
 		181B6E6B1DEBF34D009FC0C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181B6E6E1DEBF34D009FC0C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181B6E701DEBF34D009FC0C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C837791DEF461B0068E2E7 /* ZFHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFHomeViewController.swift; sourceTree = "<group>"; };
+		18C8377B1DEF462A0068E2E7 /* ZFLiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFLiveViewController.swift; sourceTree = "<group>"; };
+		18C8377D1DEF463F0068E2E7 /* ZFFollowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFFollowViewController.swift; sourceTree = "<group>"; };
+		18C8377F1DEF464C0068E2E7 /* ZFProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFProfileViewController.swift; sourceTree = "<group>"; };
+		18C8378D1DEF4C790068E2E7 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		18C8378F1DEF529D0068E2E7 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		18C837911DEF52B80068E2E7 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		18C837931DEF52CD0068E2E7 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
+		18C837951DEF52E30068E2E7 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +72,6 @@
 			children = (
 				18C837721DEF3DC90068E2E7 /* Classes */,
 				181B6E641DEBF34D009FC0C4 /* AppDelegate.swift */,
-				181B6E681DEBF34D009FC0C4 /* Main.storyboard */,
 				181B6E6B1DEBF34D009FC0C4 /* Assets.xcassets */,
 				181B6E6D1DEBF34D009FC0C4 /* LaunchScreen.storyboard */,
 				181B6E701DEBF34D009FC0C4 /* Info.plist */,
@@ -78,6 +95,8 @@
 		18C837731DEF3DC90068E2E7 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				18C837931DEF52CD0068E2E7 /* Follow.storyboard */,
+				18C8377D1DEF463F0068E2E7 /* ZFFollowViewController.swift */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -85,6 +104,8 @@
 		18C837741DEF3DC90068E2E7 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				18C8378F1DEF529D0068E2E7 /* Home.storyboard */,
+				18C837791DEF461B0068E2E7 /* ZFHomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -92,6 +113,8 @@
 		18C837751DEF3DC90068E2E7 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				18C837911DEF52B80068E2E7 /* Live.storyboard */,
+				18C8377B1DEF462A0068E2E7 /* ZFLiveViewController.swift */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -99,6 +122,8 @@
 		18C837761DEF3DC90068E2E7 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				181B6E681DEBF34D009FC0C4 /* Main.storyboard */,
+				18C8378D1DEF4C790068E2E7 /* MainTabBarController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -106,6 +131,8 @@
 		18C837771DEF3DC90068E2E7 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				18C837951DEF52E30068E2E7 /* Profile.storyboard */,
+				18C8377F1DEF464C0068E2E7 /* ZFProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -180,6 +207,10 @@
 				181B6E6F1DEBF34D009FC0C4 /* LaunchScreen.storyboard in Resources */,
 				181B6E6C1DEBF34D009FC0C4 /* Assets.xcassets in Resources */,
 				181B6E6A1DEBF34D009FC0C4 /* Main.storyboard in Resources */,
+				18C837921DEF52B80068E2E7 /* Live.storyboard in Resources */,
+				18C837901DEF529D0068E2E7 /* Home.storyboard in Resources */,
+				18C837961DEF52E30068E2E7 /* Profile.storyboard in Resources */,
+				18C837941DEF52CD0068E2E7 /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +222,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				181B6E651DEBF34D009FC0C4 /* AppDelegate.swift in Sources */,
+				18C8377E1DEF463F0068E2E7 /* ZFFollowViewController.swift in Sources */,
+				18C8378E1DEF4C790068E2E7 /* MainTabBarController.swift in Sources */,
+				18C837801DEF464C0068E2E7 /* ZFProfileViewController.swift in Sources */,
+				18C8377A1DEF461B0068E2E7 /* ZFHomeViewController.swift in Sources */,
+				18C8377C1DEF462A0068E2E7 /* ZFLiveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +239,7 @@
 				181B6E691DEBF34D009FC0C4 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		181B6E6D1DEBF34D009FC0C4 /* LaunchScreen.storyboard */ = {
@@ -314,7 +351,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = VMMCTQHT5M;
 				INFOPLIST_FILE = ZMFDouYu/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZMF.ZMFDouYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -329,7 +366,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = VMMCTQHT5M;
 				INFOPLIST_FILE = ZMFDouYu/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZMF.ZMFDouYu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
